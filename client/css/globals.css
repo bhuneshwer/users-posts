@@ -38,6 +38,7 @@ body {
 .btn-primary {
     background: var(--green);
     color: #fff;
+    border: 1px solid var(--green);
 }
 
 .btn-default {
