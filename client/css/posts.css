@@ -1,0 +1,118 @@
+@media screen and (min-width: 1000px) {
+    body {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+
+.posts-main-page-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.posts-form-submit-btn-container {
+    text-align: -webkit-auto;
+}
+
+#postsListContainerMain {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+#postsListContainer {
+    padding: 0px;
+    padding-right: 15px;
+
+}
+
+.posts-form {
+    width: 95%;
+}
+
+.posts-form-input-container textarea {
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 1em;
+    outline: none;
+}
+
+.posts-list-container {
+    margin-top: 40px;
+}
+
+.post-btns-container a {
+    font-size: 0.8em;
+}
+
+.post-single-item {
+    list-style: none;
+    border-bottom: 1px solid var(--grey);
+    background: #fff;
+    padding: 10px 5px;
+}
+
+.post-header {
+    width: 100%;
+}
+
+.post-header .post-handle {
+    float: left;
+}
+
+.post-single-item-text {
+    text-align: justify;
+    font-size: 0.8em;
+    padding: 10px 0px;
+}
+
+.post-single-item-date {
+    text-align: -webkit-right;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 0.7em;
+}
+
+.post-btns-container {
+    text-align: -webkit-auto;
+    margin-bottom: 10px;
+}
+
+.reply-form-conatainer {
+    margin: 10px 5px;
+    text-align: -webkit-auto;
+    outline: none;
+}
+
+.reply-textarea {
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid #ddd;
+}
+
+.post-replies {
+    margin-left: 40px;
+}
+
+.no-replies-message {
+    font-size: 0.8em;
+}
+
+.logout-btn-container {
+    text-align: right;
+    margin: 10px;
+    font-size: 0.8em;
+}
+
+#alertMessageContainer {
+    position: fixed;
+    bottom: 10px;
+    width: 400px;
+    min-height: 25px;
+    color: #fff;
+    padding: 8px 8px;
+    right: 10px;
+}

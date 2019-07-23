@@ -1,0 +1,52 @@
+:root {
+    --green: #66b846;
+    --steel: #708090;
+    --grey: #cdd2d8;
+}
+
+body {
+    background: #f8f8f8;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.rentmojo-form {}
+
+
+.rentmojo-form>.form-control {
+    border-radius: 2px;
+}
+
+.btn {
+    padding: 5px 8px;
+    border-radius: 2px;
+    max-width: 150px;
+    min-width: 50px;
+    height: 30px;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--green);
+    color: #fff;
+}
+
+.btn-default {
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #ddd;
+}
+
+.btn-edit-reply {
+    background: var(--steel);
+    color: #fff;
+}

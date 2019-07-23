@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache, no-store">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Posts</title>
+    <link rel="stylesheet" type="text/css" href="css/globals.css">
+    <link rel="stylesheet" type="text/css" href="css/forms.css">
+    <link rel="stylesheet" type="text/css" href="css/posts.css">
+</head>
+
+<body>
+    <div style="height:100vh" id="loader">Fetching posts..</div>
+    <div class="logout-btn-container"><a href="JavaScript:void(0);" id="logoutBtn">Logout</a></div>
+    <div class="posts-main-page-container" id='postsMainPageConatiner' style="display: none">
+        <div class="posts-form">
+            <div class="posts-form-input-container">
+                <textarea rows="4" id="postText" placeholder="Type post content"></textarea>
+            </div>
+            <div class="posts-form-submit-btn-container">
+                <button class="btn btn-primary margin-top-10" id="submitPostBtn">Submit</button>
+            </div>
+        </div>
+        <div class="posts-list-container">
+            <div id="postsListContainerMain">
+                <ul id="postsListContainer">
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="alertMessageContainer" style="display: none"></div>
+</body>
+<script type="text/javascript" src="url-config.js"></script>
+<script type="text/javascript" src="js/posts.js"></script>
+<script type="text/javascript" src="js/http-handlers.js"></script>
+<script type="text/javascript" src="js/posts-handler.js"></script>
+
+</html>
