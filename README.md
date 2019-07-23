@@ -48,7 +48,7 @@ Users
  - Users collection conatins github profile data of the user
 
 
-## App directory stucture
+## App directory Structure
 client
 
  - css - Css dependencies
