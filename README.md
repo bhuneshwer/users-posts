@@ -28,7 +28,7 @@ This app lets you login using your **Github** account. Once you are logged in yo
 
 ## Database
 Database  - MongoDB
-Database name - rentmojo-app-db
+Database name - users-posts-app-db
 
 Collections
  - users
