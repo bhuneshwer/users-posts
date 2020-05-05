@@ -15,10 +15,10 @@ body {
     margin-top: 10px;
 }
 
-.rentmojo-form {}
+.posts-form {}
 
 
-.rentmojo-form>.form-control {
+.posts-form>.form-control {
     border-radius: 2px;
 }
 

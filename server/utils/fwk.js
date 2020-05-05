@@ -3,7 +3,7 @@
     let CONFIG = getConfig();
     const MongoClient = require('mongodb').MongoClient;
     const MongoUrl = getUrlByType('mongodb');
-    const Dbname = "rentmojo-app-db";
+    const Dbname = "users-posts-app-db";
 
     var MongoConnection = null;
 
