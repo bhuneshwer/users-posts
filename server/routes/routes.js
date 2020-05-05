@@ -31,8 +31,8 @@
 
 
         passport.use(new GitHubStrategy({
-                clientID: "332941bd2172706cb52f",
-                clientSecret: "3777b816330310526df039f38aaed508e19f665a",
+                clientID: "<githubclientId>",
+                clientSecret: "<githubSecretKey>",
                 callbackURL: fwk.config.base_url + "/auth/github/callback"
             },
             function(accessToken, refreshToken, profile, cb) {

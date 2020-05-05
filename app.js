@@ -2,6 +2,16 @@ const app = require('express')();
 const http = require('http').Server(app);
 const environment = "local"; /// hard coded for now, at a later point we should be able to pass it as an argument
 const session = require('express-session');
+
+var cookie_session = require('cookie-session')
+var express = require('express')
+
+app.use(cookie_session({
+  name: 'session',
+  keys: ['rups-tv.dev'],
+  maxAge: 24 * 60 * 60 * 1000 // 24 hours
+}))
+
 const fwk = require('./server/utils/fwk').fwk
 // cookie parser for sessions
 app.use(require('cookie-parser')());
